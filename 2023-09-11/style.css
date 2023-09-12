@@ -1,0 +1,156 @@
+:root {
+  --primary-color: #121212;
+  --secondary-color: #090909;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  font-size: 62.5%;
+  text-align: justify;
+  font-family: 'Roboto Slabo';
+  display: flex;
+  flex-direction: column;
+}
+
+/* Height */
+.h-1 {
+  height: 5rem;
+}
+
+/* Width */
+.w-2 {
+  width: 50%;
+}
+
+/* font-size */
+.fs-1 {
+  font-size: 2.5rem;
+}
+
+.fs-2 {
+  font-size: 2rem;
+}
+
+.fs-3 {
+  font-size: 1.5rem;
+}
+
+.fs-4 {
+  font-size: 1rem;
+}
+
+
+/* Margin */
+.m-1 {
+  margin: 1rem;
+}
+
+.m-2 {
+  margin: 2rem;
+}
+
+.m-3 {
+  margin: 3rem;
+}
+
+/* Padding */
+.p-1 {
+  padding: 1rem;
+}
+
+.p-2 {
+  padding: 2rem;
+}
+
+.p-3 {
+  padding: 3rem;
+}
+
+/* Color */
+.white {
+  color: white;
+}
+
+/* Background */
+.bg-primary {
+  background-color: var(--primary-color);
+}
+
+.bg-secondary {
+  background-color: var(--secondary-color);
+}
+
+/* Container */
+.container {
+  padding: 3rem 5rem;
+}
+
+/* Flex */
+.d-flex {
+  display: flex;
+}
+
+.f-column {
+  flex-direction: column;
+}
+
+.al-center {
+  align-items: center;
+}
+
+.jc-center {
+  justify-content: center;
+}
+
+.jc-between {
+  justify-content: space-between;
+}
+
+.f-wrap {
+  flex-wrap: wrap;
+}
+
+.f-grow-1 {
+  flex-grow: 1;
+}
+
+
+/* Gap */
+.gap-1 {
+  gap: 2rem;
+}
+
+.gap-2 {
+  gap: 4rem;
+}
+
+.gap-3 {
+  gap: 6rem;
+}
+
+
+@media (max-width: 768px) {
+  .fs-1 {
+    font-size: 2rem;
+  }
+  .box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .box img {
+    width: 100%;
+  }
+
+  .container {
+    padding: 2rem;
+  }
+}

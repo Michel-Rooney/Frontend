@@ -6,7 +6,8 @@
   <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Pacifico&family=Roboto&family=Slabo+27px&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css">
   <link rel="stylesheet" href="./src/css/style.css">
-  <title>Distros Linux</title>
+  <link rel="stylesheet" href="./src/css/authentication.css">
+  <title>Login</title>
 </head>
 <body>
   <header class="header">
@@ -43,37 +44,18 @@
   </header>
   <main class="main">
     <div class="centralize-row">
-      <h1 class="title">Distros Linux</h1>
+      <h1 class="title">Login</h1>
     </div>
     <div class="container">
-      <div class="box">
-        <img 
-          src="https://cdn.mos.cms.futurecdn.net/a5MnFh3t9cfP8YqNb7h4iE.jpg"
-          alt="Ubuntu Logo"
-          class="logo"
-        >
-        <div class="description">
-          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Velit dolorem eveniet consequatur. Explicabo enim ipsam inventore sed, dolorem quas ipsum, delectus repudiandae quos aut architecto pariatur nobis ipsa doloremque eveniet!</p>
-        </div>
-      </div>
-      <div class="box">
-        <img 
-          src="https://getwallpapers.com/wallpaper/full/d/a/e/319447.jpg"
-          alt="Linux Mint Logo"
-          class="logo"
-        >
-        <div class="description">
-          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Velit dolorem eveniet consequatur. Explicabo enim ipsam inventore sed, dolorem quas ipsum, delectus repudiandae quos aut architecto pariatur nobis ipsa doloremque eveniet!</p>
-        </div>
-      </div>
-      <div class="box">
-        <img 
-          src="https://www.lifewire.com/thmb/ftZ1L1jJdEj3e2zzHObw3988buU=/1920x1080/filters:fill(auto,1)/fedora-feat-5b9fe676c9e77c0050ce388c.jpg"
-          alt="Fedora Logo"
-          class="logo"
-        >
-        <div class="description">
-          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Velit dolorem eveniet consequatur. Explicabo enim ipsam inventore sed, dolorem quas ipsum, delectus repudiandae quos aut architecto pariatur nobis ipsa doloremque eveniet!</p>
+      <div class="auth-container-form" style="flex-wrap: wrap-reverse;">
+        <form class="auth-form">
+          <h2 class="auth-form-text">Welcome</h2>
+          <input class="auth-form-input" type="email" placeholder="Email...">
+          <input class="auth-form-input" type="password" placeholder="Password...">
+          <button class="auth-form-submit" type="submit">Login</button>
+        </form>
+        <div class="auth-image">
+          <i class="bi bi-person-fill"></i>
         </div>
       </div>
     </div>

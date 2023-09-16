@@ -1,0 +1,62 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block title %}Distros Linux{% endblock %}
+
+{% block body %}
+<main class="main">
+  <div class="centralize-row">
+    <h1 class="title">Distros Linux</h1>
+  </div>
+  <div class="container">
+    <div class="box">
+      <img 
+        src="{% static 'img/ubuntu-gnome-workspace.jpg' %}"
+        alt="Ubuntu Logo"
+        class="logo"
+      >
+      <div class="text">
+        <h2 class="text-title">
+          <a href="">Ubuntu</a>
+        </h2>
+        <p class="description">
+          &emsp; &ensp;
+          Ubuntu é uma antiga palavra africana que significa “humanidade para os outros”. Muitas vezes é descrito como um lembrete de que “sou o que sou por causa de quem todos nós somos”. Trazemos o espírito do Ubuntu para o mundo dos computadores e software. A distribuição Ubuntu representa o que de melhor a comunidade mundial de software compartilhou com o mundo.
+        </p>
+      </div>
+    </div>
+    <div class="box box-reverse">
+      <div class="text">
+        <h2 class="text-title">
+          <a href="">Linux Mint</a>
+        </h2>
+        <p class="description">
+          &emsp; &ensp;
+          Linux Mint é uma distribuição Linux para desktop altamente popular, servindo milhões de usuários como uma alternativa atraente ao Windows e MacOS. Sua missão principal é criar um sistema operacional moderno, fácil de usar e poderoso. Linux Mint se destaca por sua funcionalidade perfeita, suporte multimídia robusto, natureza de código aberto e envolvimento ativo da comunidade.
+        </p>
+      </div>
+      <img 
+        src="{% static 'img/linux-mint-cinnamon-workspace.png' %}"
+        alt="Linux Mint Logo"
+        class="logo"
+      >
+    </div>
+    <div class="box">
+      <img 
+        src="{% static 'img/fedora-kde-workspace.jpg' %}"
+        alt="Fedora Logo"
+        class="logo"
+      >
+      <div class="text">
+        <h2 class="text-title">
+          <a href="">Fedora</a>
+        </h2>
+        <p class="description">
+          &emsp; &ensp;
+          O Fedora é uma distribuição Linux líder para desktop, conhecida por sua modernidade e usabilidade. Ele oferece uma experiência pronta para uso com forte suporte multimídia, ao mesmo tempo em que segue os princípios de código aberto. Como um projeto conduzido pela comunidade, incentiva a contribuição do usuário para melhoria contínua.
+        </p>
+      </div>
+    </div>
+  </div>
+</main>
+{% endblock %}

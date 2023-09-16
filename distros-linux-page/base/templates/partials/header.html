@@ -1,0 +1,33 @@
+{% load static %}
+<header class="header">
+  <div>
+    <a href="{% url 'home' %}">
+      <img class="logo-header" src="{% static 'img/penguin-logo.png' %}" alt="Penguin Logo Linux">
+    </a>
+  </div>
+  <ul class="header-items">
+    <li>
+      <a href="">News</a>
+    </li>
+    <li>
+      <a href="{% url 'login' %}">Login</a>
+    </li>
+    <li>
+      <a href="{% url 'register' %}">Register</a>
+    </li>
+  </ul>
+  <div class="hamburguer">
+    <i class="bi bi-list"></i>
+    <ul class="menu">
+      <li>
+        <a href="">News</a>
+      </li>
+      <li>
+        <a href="{% url 'login' %}">Login</a>
+      </li>
+      <li>
+        <a href="{% url 'register' %}">Register</a>
+      </li>
+    </ul>
+  </div>
+</header>

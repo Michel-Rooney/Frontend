@@ -1,4 +1,3 @@
-import '../css/Global.css';
 import '../css/Authentication.css';
 
 function Register () {

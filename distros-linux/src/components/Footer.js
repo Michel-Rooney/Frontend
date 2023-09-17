@@ -16,7 +16,7 @@ function Footer () {
         </li>
         <li>
           <a 
-            href="https://github.com/Michel-Rooney/Frontend/tree/main/2023-09-11"
+            href="https://github.com/Michel-Rooney/Frontend/tree/main/distros-linux"
             target="_blank"
             rel="noreferrer"
           >

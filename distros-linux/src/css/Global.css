@@ -15,13 +15,13 @@
   list-style: none;
   text-decoration: none;
   color: white;
+  font-family: 'Ubuntu' sans-serif;
 }
 
 body {
   min-height: 100vh;
   font-size: 62.5%;
   text-align: justify;
-  font-family: 'Tinos', sans-serif;
   display: flex;
   flex-direction: column;
 }

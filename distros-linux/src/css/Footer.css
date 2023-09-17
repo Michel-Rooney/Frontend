@@ -1,0 +1,28 @@
+.footer {
+  min-height: var(--normal-height);
+  background-color: var(--secondary-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-items {
+  width: 50%;
+  height: 60%;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  font-size: var(--average-font);
+  gap: 10px;
+}
+
+@media (max-width: 768px) {
+  .footer-items {
+    width: 60%;
+    padding: 1rem 0;
+    flex-wrap: wrap;
+    font-size: 1rem;
+    gap: 10px;
+  }
+}

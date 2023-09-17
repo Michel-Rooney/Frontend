@@ -32,32 +32,32 @@ function Header () {
       </div>
       <ul className="header-items">
         <li>
-          <a href='a'>News</a>
+          <a href='/news/'>News</a>
         </li>
         <li>
-          <Link to="/distros">Distros</Link>
+          <Link to="/distros/">Distros</Link>
         </li>
         <li>
-          <Link to="/login">Login</Link>
+          <Link to="/login/">Login</Link>
         </li>
         <li>
-          <Link to="/register">Register</Link>
+          <Link to="/register/">Register</Link>
         </li>
       </ul>
       <div className="hamburguer" onClick={toggleHamburger}>
         <i className="bi bi-list"></i>
         <ul className="menu">
           <li>
-            <a href='a'>News</a>
+            <a href='/news/'>News</a>
           </li>
           <li>
-            <a href='a'>Distros</a>
+            <Link to="/distros/">Distros</Link>
           </li>
           <li>
-            <a href='a'>Login</a>
+            <Link to="/login/">Login</Link>
           </li>
           <li>
-            <a href='a'>Register</a>
+            <Link to="/register/">Register</Link>
           </li>
         </ul>
       </div>

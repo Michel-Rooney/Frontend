@@ -6,6 +6,7 @@ import HomePage from './screens/HomePage';
 import Distros from './screens/Distros';
 import Login from './screens/Login';
 import Register from './screens/Register';
+import News from './screens/News';
 
 function App() {
   return (
@@ -13,9 +14,10 @@ function App() {
       <Header />
       <Routes>
         <Route exact path='/' element={<HomePage />} />
-        <Route path='/distros' element={<Distros />} />
-        <Route path='/login' element={<Login />} />
-        <Route path='/register' element={<Register />} />
+        <Route path='/distros/' element={<Distros />} />
+        <Route path='/login/' element={<Login />} />
+        <Route path='/register/' element={<Register />} />
+        <Route path='/news/' element={<News />} />
       </Routes>
       <Footer />
     </Router>

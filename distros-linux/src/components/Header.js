@@ -32,7 +32,7 @@ function Header () {
       </div>
       <ul className="header-items">
         <li>
-          <a href='/news/'>News</a>
+          <Link to='/news/'>News</Link>
         </li>
         <li>
           <Link to="/distros/">Distros</Link>
@@ -48,7 +48,7 @@ function Header () {
         <i className="bi bi-list"></i>
         <ul className="menu">
           <li>
-            <a href='/news/'>News</a>
+            <Link to='/news/'>News</Link>
           </li>
           <li>
             <Link to="/distros/">Distros</Link>

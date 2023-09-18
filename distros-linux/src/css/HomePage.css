@@ -1,0 +1,179 @@
+.main {
+  padding-top: 80px;
+}
+
+.Home-wallpaper {
+  position: relative;
+  min-height: 500px;
+  display: flex;
+  align-items: center;
+  padding: 0 200px;
+}
+
+.Home-wallpaper::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: url('/public/img/linux-wallpaper-background.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  opacity: 0.5;
+}
+
+.Home-box {
+  max-width: 25rem;
+  min-height: 10rem;
+  z-index: 1;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Home-title {
+  font-size: 4rem;
+  margin-bottom: 2rem;
+}
+
+.Home-description {
+ font-size: 14px; 
+}
+
+
+.Home-middle-content {
+  min-height: 500px;
+  background-color: var(--primary-color);
+}
+
+.Home-middle-content-items {
+  height: 100%;
+  padding: 80px 30px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.Home-middle-content-items li {
+  border: 1px #FFFFFF15 solid;
+  min-height: 200px;
+  margin: 0 1rem 2rem 1rem;
+  gap: 2rem;
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Home-middle-content-items li img {
+  width: 22rem;
+}
+
+.Home-middle-content-items li h3 {
+  font-size: 18px;
+  padding: 4px 0 14px 0;
+}
+
+
+.Home-below-content {
+  min-height: 100px;
+  background-color: #162228;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Home-below-content-title {
+  font-size: 2rem;
+  margin: 40px 0 0 0;
+}
+
+.Home-below-content-items {
+  height: 100%;
+  padding: 80px 200px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+  gap: 5rem;
+}
+
+.Home-below-content-items li {
+  margin-bottom: 2rem;
+  gap: 2rem;
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Home-below-content-items li img {
+  width: 10rem;
+}
+
+@media (max-width: 960px) {
+  .Home-wallpaper {
+    padding: 0 100px;
+  }
+}
+
+@media (max-width: 768px) {
+  .Home-wallpaper {
+    padding: 0;
+    align-items: end;
+    justify-content: center;
+    min-height: 500px;
+  }
+
+  .Home-wallpaper::before {
+    background-image: url('/public/img/linux-wallpaper-background-responsive.jpg');
+  }
+
+  .Home-box {
+    padding: 2rem;
+    margin-bottom: 30px;
+    min-width: 10rem;
+    min-height: 10rem;
+  }
+
+  .Home-title {
+    font-size: 3rem;
+  }
+
+  .Home-description {
+    font-size: 13px; 
+   }
+}
+
+@media (max-width: 400px) {
+  .Home-middle-content-items li {
+    border: 1px #FFFFFF15 solid;
+    min-height: 200px;
+    margin: 0 1rem 2rem 1rem;
+    gap: 2rem;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .Home-middle-content-items li img {
+    width: 80vw;
+  }
+  
+  .Home-middle-content-items li h3 {
+    font-size: 16px;
+    padding: 4px 10px 14px 10px;
+    text-align: center;
+  }
+}
+
+@media (max-width: 350px) {
+  .Home-title {
+    font-size: 2.2rem;
+  }
+}

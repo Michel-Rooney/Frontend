@@ -14,12 +14,12 @@ function News () {
           </section>
           <aside>
             <div className='News-aside-box'>
-              <img src='http://placehold.it/150x150' alt='Random'/>
+              <img src='http://placehold.it/250x150' alt='Random'/>
               <p>Como a Tecnologia Está Transformando a Maneira como Nos Movemos</p>
             </div>
             <div className='News-aside-box News-box-reverse'>
               <p>Como a Tecnologia Está Transformando a Maneira como Nos Movemos</p>
-              <img src='http://placehold.it/150x150' alt='Random'/>
+              <img src='http://placehold.it/250x150' alt='Random'/>
             </div>
           </aside>
         </div>

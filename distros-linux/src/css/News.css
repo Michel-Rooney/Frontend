@@ -7,6 +7,7 @@ p {
   display: flex;
   flex-direction: column;
   align-items: center;
+  gap: 0;
 }
 
 .main {
@@ -39,6 +40,11 @@ p {
   display: flex;
   align-items: center;
   gap: 10px;
+}
+
+.News-aside-box img {
+  max-width: 150px;
+  height: 150px;
 }
 
 .News-section {
@@ -76,13 +82,6 @@ p {
 }
 
 @media (max-width: 500px) {
-  .News-section-start {
-    display: flex;
-    justify-content: space-evenly;
-    padding: 0 1rem;
-    gap: 1rem;
-  }
-
   .News-section-start section {
     max-width: 250px;
   }
@@ -107,4 +106,8 @@ p {
   .News-aside-box img {
     max-width: 250px;
   }
+
+  .container {
+    gap: 0;
+  }  
 }

@@ -17,10 +17,11 @@
 }
 
 .header-items {
-  width: 35%;
+  min-width: 35%;
   display: flex;
   justify-content: space-evenly;
   font-size: var(--average-font);
+  gap: 10px;
 }
 
 .hamburguer {

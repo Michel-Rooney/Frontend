@@ -16,6 +16,7 @@ p {
 }
 
 .News-section-start {
+  max-width: 800px;
   display: flex;
   justify-content: space-evenly;
   padding: 0 1rem;
@@ -27,6 +28,11 @@ p {
   display: flex;
   flex-direction: column;
   align-items: start;
+}
+
+.News-section-start section img {
+  max-width: 400px;
+  height: 250px;
 }
 
 .News-section-start aside {
@@ -43,12 +49,12 @@ p {
 }
 
 .News-aside-box img {
-  max-width: 150px;
+  max-width: 200px;
   height: 150px;
 }
 
 .News-section {
-  width: 90%;
+  max-width: 800px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
@@ -60,6 +66,11 @@ p {
   flex-direction: column;
   align-items: center;
   margin-top: 1rem;
+}
+
+.News-section div img {
+  max-width: 250px;
+  height: 150px;
 }
 
 
